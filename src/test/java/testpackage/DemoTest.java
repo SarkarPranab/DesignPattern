@@ -145,4 +145,23 @@ public class DemoTest extends BastTest{
 
     */
 
+/*
+---> Section 10: Continuous Integration with GitHub Web hook to Jenkin Trigger jobs
+After creating freestyle jenkins job
+Step 1: Go to "Manage jenkins"
+Step 2: Go to "Configure System"
+Step 3: Go to "Github" and click on advance.
+Step 4: Click on hook URL checkbox and get the hook url.
+Step 5: For local jenkins download socketxp follow the tutorial and get
+public url. https://portal.socketxp.com/#/basicauthtoken
+Step 6: Go to github specific repo you want to trigger
+Setting >> Webhooks / Manage webhook >> Add public url
+Step 7: Go to jenkins and specific job
+Build Triggers >> GitHub hook trigger for GITScm polling
+
+Conclusion Whenever there is new commit jenkins job will trigger.
+Make sure Jenkins job created with
+Source Code Management >> git
+*/
+
 }
